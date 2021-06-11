@@ -1,2 +1,2 @@
 #api/config.py
-DEBUG = False
+DEBUG = True
