@@ -24,7 +24,7 @@ def get(name,num):
     
     item = 0
     for i in range(cnt):
-        print('page=' + str(i+1))
+#        print('page=' + str(i+1))
         readObj = requests.get('https://peing.net/api/v2/items/?type=answered&account='+ u_name + '&page=' + str(i+1))        
         data = readObj.json()
         data = str(data['items'])

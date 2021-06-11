@@ -1,8 +1,10 @@
 {% extends "layout.html" %}
 {% block content %}
 <form action="/download" methos="GET">
+<p>※質問箱url　"https://peing.net/ja/xxxxx" xxxx部分を入力</p>
 <p>account :
 <input type="text" name="account"></p>
+<p>※最新から何件取得したいかを入力(動作不安定)</p>
 <p>get_num:
 <input type="number" name="num"></p>
 <p><input type="submit" value="送信"></p>
