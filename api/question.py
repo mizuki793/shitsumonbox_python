@@ -1,4 +1,4 @@
-api/question.py
+#api/question.py
 #userの番号を取得する
 #from bs4 import BeautifulSoup
 import requests
