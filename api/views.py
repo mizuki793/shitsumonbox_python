@@ -1,6 +1,6 @@
 # api/views.py
 
-from flask import request,send_file,Response,make_response,render_template
+from flask import send_file,Response,make_response,render_template
 from api import app
 from api import question
 
