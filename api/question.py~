@@ -1,0 +1,17 @@
+#api/question.py
+#userの番号を取得する
+from bs4 import BeautifulSoup
+import requests
+
+def get(r):
+    name = r.decode('utf-8')
+    res = requests.get('https://peing.net/ja/'+ name)
+    soup = BeautifulSoup(res.text,'html.parser')
+    
+    #新着の質問のurl idを取る
+    test = soup.find(class_='control-bar')
+    #test = soup.find('data-v-4c218123').get_text()
+
+
+#https://peing.net/api/v2/questions/
+    return test
