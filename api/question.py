@@ -1,8 +1,7 @@
 #api/question.py
 #userの番号を取得する
 #from bs4 import BeautifulSoup
-from flask 
-import request
+from flask import request
 import json 
 import urllib
 import sys
